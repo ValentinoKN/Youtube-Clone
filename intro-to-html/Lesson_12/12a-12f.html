@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Flexbox Exercise</title>
+    <style>
+      body {
+        font-family: Arial;
+        font-size: 15px;
+        margin-bottom: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div style="
+      display: flex;
+      ">
+      <div style="
+      background-color: lightblue;
+      width: 200px;
+      ">200px</div>
+      <div style="
+      background-color: lightpink;
+      width: 75px;
+      ">75px</div>
+    </div>
+
+    <div style="
+    display: flex;
+    margin-top: 10px;
+    ">
+      <div style="
+      background-color: lightblue;
+      width: 50px;
+      ">item1</div>
+      <div style="
+      background-color: lightpink;
+      flex: 1;
+      ">item2</div>
+      <div style="
+      background-color: lightblue;
+      width: 50px;
+      ">item3</div>
+    </div>
+  
+    <div style="
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    ">
+      <div style="
+      background-color: lightpink;
+      ">item1</div>
+      <div style="
+      background-color: lightpink;
+      ">item2</div>
+      <div style="
+      background-color: lightpink;
+      ">item3</div>
+      <div style="
+      background-color: lightpink;
+      ">item4</div>
+    </div>
+
+    <div style="
+    display: flex;
+    margin-top: 10px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    ">
+      <div style="
+      background-color: lightpink;
+      ">item1</div>
+      <div style="
+      background-color: lightpink;
+      ">item2</div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 5px;
+    border-color: gray;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    ">
+
+      <div style="
+      display: flex;
+      justify-content: space-between;
+      ">
+        <div>Home</div>
+        <div style="
+        background-color: rgb(61, 143, 187);
+        color: white;
+        border-radius: 50px;
+        padding-left: 10px;
+        padding-top: 3px;
+        padding-right: 10px;
+        padding-bottom: 2px;
+        ">
+          14
+        </div>
+      </div>
+
+      <div style="
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      ">
+        <div>Notifications</div>
+        <div style="
+        background-color: rgb(61, 143, 187);
+        color: white;
+        border-radius: 50px;
+        padding-left: 10px;
+        padding-top: 3px;
+        padding-right: 10px;
+        padding-bottom: 2px;
+          ">
+          3
+        </div>
+       </div> 
+
+       <div style="
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      ">
+        <div>Messages</div>
+        <div style="
+        background-color: rgb(61, 143, 187);
+        color: white;
+        border-radius: 50px;
+        padding-left: 10px;
+        padding-top: 3px;
+        padding-right: 10px;
+        padding-bottom: 2px;
+          ">
+          5
+        </div>
+       </div>
+
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+    column-gap: 10px;
+    ">
+      <div>
+        <img style="
+          width: 50px;
+          height: 50px;
+          object-fit: cover;
+          object-position: right;
+          border-radius: 50px;
+          " src="images/Snapchat-1046329517.jpg">
+      </div>
+      <div style="
+      display: flex;
+      flex-direction: column;
+      height: 60px;
+      width: 70px;
+      justify-content: space-between;
+      ">
+        <div style="
+        font-weight: bold;
+        ">Valentino</div>
+        <div style="
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        ">Creator</div>
+        <div style="
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        ">Popular</div>
+      </div>
+      <div style="
+      margin-left: 150px;
+      ">
+        <button style="
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(61, 143, 187);
+        border-style: none;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        ">Follow</button>
+      </div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+    column-gap: 10px;
+    ">
+      <div>
+        <img style="
+          width: 50px;
+          height: 50px;
+          object-fit: cover;
+          object-position: center;
+          border-radius: 50px;
+          " src="images/Snapchat-1046329517.jpg">
+      </div>
+      <div style="
+      display: flex;
+      flex-direction: column;
+      height: 60px;
+      width: 70px;
+      justify-content: space-between;
+      ">
+        <div style="
+        font-weight: bold;
+        ">Groups</div>
+        <div style="
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        ">People</div>
+        <div style="
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        ">Popular</div>
+      </div>
+      <div style="
+      margin-left: 150px;
+      ">
+        <button style="
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(61, 143, 187);
+        border-style: none;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        ">Follow</button>
+      </div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+    column-gap: 10px;
+    ">
+      <div>
+        <img style="
+          width: 50px;
+          height: 50px;
+          object-fit: cover;
+          object-position: left;
+          border-radius: 50px;
+          " src="images/Snapchat-1046329517.jpg">
+      </div>
+      <div style="
+      display: flex;
+      flex-direction: column;
+      height: 60px;
+      width: 70px;
+      justify-content: space-between;
+      ">
+        <div style="
+        font-weight: bold;
+        ">Merinda</div>
+        <div style="
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        ">Editor</div>
+        <div style="
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        ">Popular</div>
+      </div>
+      <div style="
+      margin-left: 150px;
+      ">
+        <button style="
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(61, 143, 187);
+        border-style: none;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        ">Follow</button>
+      </div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(112, 81, 153);
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    ">
+      <div style="
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      ">Home</div>
+      <div style="
+      align-items: center;
+      "><input style="
+      height: 25px;
+      width: 400px;
+      padding-left: 20px;
+      border-radius: 50px;
+      border-style: none;
+      font-size: 13px;
+      " type="text" placeholder="Search"></div>
+      <div>
+        <button style="
+        border-color: white;
+        border-style: solid;
+        border-width: 1px;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        background-color: rgb(112, 81, 153);
+        color: white;
+        ">Download</button>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position Absolute/Relative Exercise</title>
+    <style>
+      p {
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+      }
+    </style>
+  </head>
+  <body style="
+  margin-bottom: 3000px;
+  position: relative;
+  ">
+    <div style="
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    font-family: Arial;
+    padding: 6px 10px 6px 10px;
+    border-radius: 15px;
+    ">X</div>
+
+    <div style="
+    position: fixed;
+    width: 320px;
+    height: 180px;
+    background-color: gray;
+    right: 15px;
+    bottom: 15px;
+    ">
+        <div style="
+        position: absolute;
+        background-color: black;
+        color: white;
+        top: -10px;
+        left: -10px;
+        font-family: Arial;
+        padding: 6px 10px 6px 10px;
+        border-radius: 15px;
+        ">X</div>
+                <div style="
+                position: absolute;
+                background-color: black;
+                color: white;
+                bottom: 10px;
+                right: 10px;
+                font-family: Arial;
+                padding: 5px 8px 5px 8px;
+                border-radius: 2px;
+                ">0:29</div>
+    </div>
+
+    <div style="
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    ">
+      <div style="
+      position: absolute;
+      right: 0;
+      top: 10px;
+      font-family: Arial;
+      background-color: black;
+      color: white;
+      font-size: 12px;
+      padding: 5px 10px 5px 10px;
+      ">20% OFF</div>
+      <img src="images/Joggers.webp">
+      <div style="
+      position: absolute;
+      height: 60px;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.2);
+      ">
+      <button style="
+      padding: 5px 10px 5px 10px;
+      font-size: 12px;
+      background-color: white;
+      border-radius: 2px;
+      border-width: 1px;
+      margin-top: 17px;
+      margin-left:83px;
+      ">Add to Cart</button>
+      </div>
+    </div>
+
+  </body>
+</html>

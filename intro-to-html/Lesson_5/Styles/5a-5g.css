@@ -1,0 +1,188 @@
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    ._5a {
+        font-family: Tahoma;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    ._5b-1 {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    ._5b-2 {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 20px;
+        color: red;
+        font-style: italic;
+        margin-bottom: 20px;    
+    }
+    ._5c-1 {
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    ._5c-2 {
+        font-family: Verdana;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(96, 96, 96);
+        margin-bottom: 20px;
+    }
+    ._5c-3 {
+        font-family: Verdana;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    ._5c-4 {
+        font-family: Verdana;
+        background-color: rgb(51, 130, 51);
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        border-width: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    ._5d-1 {
+        text-align: center;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    ._5d-2 {
+        text-align: center;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    ._5d-3 {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align : center;
+        cursor: pointer;
+    }
+    ._5e-1 {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 15px;
+        color: red;
+        margin-bottom: 10px;
+        text-align : center;
+    }
+    ._5e-2 {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-align : center;
+    }
+    ._5e-3 {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 35px;
+        margin-bottom: 10px;
+        text-align : center;
+    }
+    ._5e-4 {
+        font-family: Arial;
+        font-size: 20px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 10px;    
+        text-align : center;
+    }
+    ._5e-5 {     
+        font-family: Arial;
+        background-color: rgb(50, 100, 200);
+        color: white;
+        font-weight: bold;
+        border-radius: 20px;
+        border-width: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    ._5e-5-1 {
+        text-align: center;
+    }
+    ._5f-1 {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    ._5f-1-1 {
+        font-family: Arial;
+        font-weight: bold;
+        color: rgb(96, 96, 96);
+        font-size: 15px;
+    }
+    ._5f-2 {
+        font-family: Arial;
+        font-weight: bold;
+        color: rgb(0, 150, 50);
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    ._5f-3 {
+        font-family: Arial;
+        font-weight: bold;
+        color: rgb(96, 96, 96);
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    ._5f-3-1 {
+        font-family: Arial;
+        font-weight: bold;
+        color: red;
+        font-size: 15px;
+    }
+    ._5g-1 {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    ._5g-1-1 {
+        font-family: Arial;
+        font-weight: normal;
+        color: rgb(96, 96, 96);
+        font-size: 20px;
+    }
+    ._5g-2 {
+        font-family: Arial;
+        font-weight: normal;
+        font-size: 20px;
+        width: 650px;
+        margin-bottom: 20px;
+    }
+    ._5g-3 {
+        font-family: Arial;
+        font-weight: normal;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    ._5g-3-1 {
+        font-family: Arial;
+        color: rgb(132, 194, 236);
+        font-size: 20px;
+    }

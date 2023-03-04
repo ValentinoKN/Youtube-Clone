@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Grid Exercise</title>
+    <link rel="stylesheet" href="Styles/11a-11d.css">
+  </head>
+  <body>
+    <div class="_11a">
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">75px</div>
+    </div>
+
+    <div class="_11b">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+    </div>
+
+    <div class="_11c">
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+    </div>
+
+    <div style="
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 250px 250px 250px;
+    column-gap: 15px;
+    ">
+
+      <div class="tab-style">
+        <div>
+          <img style="object-position: right;" class="thumbnail" src="Images/Snapchat-1046329517.jpg">
+        </div>
+        <div>
+          <p class="name">Valentino</p> 
+        </div>
+        <div style="
+        display: grid;
+        grid-template-columns: 25px 1fr;
+        column-gap: 2px;
+        ">
+        <div>
+          <img style="object-position: right;" class="profile" src="Images/Snapchat-1046329517.jpg">
+        </div>
+        <div>
+          <p class="follow-status">2 mutual friends</p>
+        </div>
+        </div>
+        <div>
+          <button class="button">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="tab-style">
+        <div>
+          <img style="object-position: center;" class="thumbnail" src="Images/Snapchat-1046329517.jpg">
+        </div>
+        <div>
+          <p class="name">Groups</p> 
+        </div>
+        <div style="
+        display: grid;
+        grid-template-columns: 25px 1fr;
+        column-gap: 2px;
+        ">
+        <div>
+          <img style="object-position: center;" class="profile" src="Images/Snapchat-1046329517.jpg">
+        </div>
+        <div>
+          <p class="follow-status">3 following</p>
+        </div>
+        </div>
+        <div>
+          <button class="button">Join Group</button>
+        </div>
+      </div>
+
+      <div class="tab-style">
+        <div>
+          <img style="object-position: left;" class="thumbnail" src="Images/Snapchat-1046329517.jpg">
+        </div>
+        <div>
+          <p class="name">Merinda</p> 
+        </div>
+        <div style="
+        display: grid;
+        grid-template-columns: 25px 1fr;
+        column-gap: 2px;
+        ">
+        <div>
+          <img style="object-position: left;" class="profile" src="Images/Snapchat-1046329517.jpg">
+        </div>
+        <div>
+          <p class="follow-status">4 mutual friends</p>
+        </div>
+        </div>
+        <div>
+          <button class="button">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

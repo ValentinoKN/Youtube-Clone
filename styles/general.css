@@ -7,47 +7,52 @@ body {
   /* This style below will be inherited */
   font-family: Roboto, Arial;
   margin: 0;
-  padding-top: 122px;
+  padding-top: 132px;
   padding-left: 100px;
   padding-bottom: 100px;
   padding-right: 25px;
   background-color: rgb(248, 248, 248);
 }
 
-/*
-  EDUCATIONAL PROJECT NOTICE
-  This visible banner is intentionally kept on the rendered clone so viewers
-  cannot reasonably mistake the project for the official YouTube website.
-*/
+/* Permanent educational attribution shown on the rendered clone. */
 body::before {
-  content: "EDUCATIONAL PROJECT — YouTube UI clone created while following SuperSimpleDev's HTML & CSS course. Not affiliated with, endorsed by, or sponsored by YouTube or Google.";
-  position: fixed;
-  top: 55px;
-  left: 72px;
-  right: 0;
-  z-index: 1000;
+  content: "⚠ EDUCATIONAL PROJECT — YouTube interface clone created while following SuperSimpleDev's HTML & CSS Full Course. This is NOT YouTube and is not affiliated with, endorsed by, or sponsored by YouTube or Google.";
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: fixed !important;
+  top: 55px !important;
+  left: 72px !important;
+  right: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  min-height: 52px !important;
+  z-index: 2147483647 !important;
   box-sizing: border-box;
-  min-height: 42px;
-  padding: 11px 20px;
-  background: #fff4d6;
-  border-bottom: 1px solid #e5c56b;
-  color: #5f4700;
+  padding: 14px 24px;
+  background: #fff3cd;
+  border-top: 1px solid #ffda6a;
+  border-bottom: 2px solid #d6a900;
+  color: #4d3b00;
   font-family: Roboto, Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
   text-align: center;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.14);
+  pointer-events: none;
 }
 
 @media (max-width: 750px) {
   body {
-    padding-top: 142px;
+    padding-top: 158px;
   }
 
   body::before {
-    left: 0;
-    padding-left: 12px;
-    padding-right: 12px;
+    left: 0 !important;
+    min-height: 72px !important;
+    padding: 10px 12px;
     font-size: 12px;
+    line-height: 17px;
   }
 }
